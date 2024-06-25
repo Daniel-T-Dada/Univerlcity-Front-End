@@ -14,6 +14,32 @@
 <body>
     <form action="">
         <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="tel">Mobile No:</label>
+            <input type="tel" name="tel" id="tel">
+            <br><br>
+
+            <label for="add">Address</label>
+            <input type="text" name="add" id="add">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>State of Origin</legend>
             <h1>State of Origin</h1>
             
             <select name="firstclass" id="firstclass" title="anything">
@@ -22,6 +48,8 @@
                     <option value="Ay">Adamawa</option>
                     <option value="AI">Akwa Ibom</option>
                     <option value="lg" selected>Lagos</option>
+                    <option value="og">Ogun</option>
+                    <option value="oy">Oyo</option>
                 </optgroup>
             </select>
         </fieldset>
