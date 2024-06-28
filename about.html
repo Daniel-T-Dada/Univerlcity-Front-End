@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./multimedia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./about.css">
+    <title>About ME</title>
+</head>
+
+<body>
+    <article>
+        <h1>CSS SPECIFICITY</h1>
+
+        <p>
+            Today, i learnt about CSS specificity. When elements are combined to select an element, the specificity of
+            that element increases and Cascading is neglected
+        </p>
+
+        <div class="class-selectors">
+            <p>Clara</p>
+            <p>Immediate younger sibling</p>
+            <p>Second sibling</p>
+            <p>third</p>
+            <div>This is the div container in the class selector</div>
+        </div>
+
+        <div id="Id-selectors">
+            <h2 class="box2">This is the first container in the ID selector</h2>
+
+            <p class="box1">This is the second container in the ID selector whose background has changed because I
+                targeted it using the sibling adjacent selector</p>
+
+            <span>This is a span container that i have selected using the sibling adjacent selector and given a border
+                property</span>
+
+        </div>
+
+    </article>
+
+    <!-- <p class="Grandfather">This is Grand Parent
+
+        <p class="father">This is a child Parent
+
+            <p class="son">This is a grandchild of the grandparent and the child of the </p>
+
+        </p>
+    </p> -->
+</body>
+
+</html>
